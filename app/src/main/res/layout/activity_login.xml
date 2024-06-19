@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:elevation="1dp"
+            android:text="Sinta o ritmo do momento  Sua música, qualquer hora, em qualquer lugar."
+            android:textColor="@color/textWhite"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:elevation="2dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColorHint="@color/grey"
+            android:padding="16dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/rounded_corner"
+            android:textColor="@color/black"
+            android:id="@+id/email_edittext"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Senha"
+            android:textColorHint="@color/grey"
+            android:padding="16dp"
+            android:inputType="textPassword"
+            android:background="@drawable/rounded_corner"
+            android:textColor="@color/black"
+            android:id="@+id/password_edittext"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/darkblue"
+            android:text="Login"
+            android:id="@+id/login_btn"/>
+
+        <ProgressBar
+            android:layout_width="32dp"
+            android:layout_height="60dp"
+            android:id="@+id/progress_bar"
+            android:visibility="gone"
+            android:indeterminateTint="@color/white"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alexandre dos Santos Nazareth 2022.2.0120.0005-4"
+            android:textColor="@color/textWhite"
+            android:layout_marginBottom="4dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:id="@+id/alexandre"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Edvaldo José de Sousa Júnior 2022.2.0120.0002-0"
+            android:textColor="@color/textWhite"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:id="@+id/edvaldo"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Não tem uma conta?"
+            android:textColor="@color/textWhite"
+            android:gravity="center"
+            android:id="@+id/goto_signup_btn"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
